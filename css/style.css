@@ -318,7 +318,7 @@ h2 {
   pointer-events: none;
 }
 .contact-inner { position: relative; }
-.contact-mark { width: clamp(84px, 10vw, 128px); margin: 0 auto 28px; filter: drop-shadow(0 0 30px color-mix(in srgb, var(--orange) 60%, transparent)); }
+.contact-mark { width: clamp(84px, 10vw, 128px); height: auto; margin: 0 auto 28px; filter: drop-shadow(0 0 30px color-mix(in srgb, var(--orange) 60%, transparent)); }
 .footer-brand { display: flex; align-items: center; gap: 10px; }
 .footer-brand img { width: 22px; height: 22px; }
 .contact-title { font-size: clamp(48px, 9.5vw, 150px); letter-spacing: -0.035em; }
